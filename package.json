@@ -1,0 +1,24 @@
+{
+  "name": "nakliye-api",
+  "version": "1.0.0",
+  "description": "nakliye api app with express and postgresql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "nakliye",
+    "express",
+    "postgresql"
+  ],
+  "author": "Mustafa Durmaz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
